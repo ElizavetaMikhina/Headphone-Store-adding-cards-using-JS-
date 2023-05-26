@@ -1,0 +1,223 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 20.72px;
+  color: rgba(28, 28, 39, 1);
+  background-color: #EAEAEA;;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(28, 28, 39, 1);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  width: 1110px;
+  padding: 0 165px;
+  margin: 0 auto;
+  margin-bottom: 28px;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 85px;
+  height: 30px;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30.48px;
+}
+
+.site-navigation-items {
+  display: flex;
+  flex-direction: row;
+}
+
+.site-navigation-item {
+  width: 62px;
+  height: 60px;
+}
+
+.site-navigation-item img {
+  padding: 20px;
+}
+
+.main-content {
+  width: 1110px;
+  margin: 0 auto;
+  padding: 0 165px;
+  margin-bottom: 20px;
+}
+
+.headphones {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 20px;
+  line-height: 24.38px;
+  color: rgba(131, 131, 131, 1);
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.headphones-conteiner {
+  display: flex;
+  flex-direction: row;
+}
+
+.cards__headphones,
+.cards__wireless-headphones {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 28.35px;
+}
+
+.card {
+  width: 350px;
+  height: 407px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  padding: 15px 20px 25px 20px;
+  box-sizing: border-box;
+}
+
+.card img {
+  display: block;
+  margin: 0 45px 54px 45px;
+}
+
+.headphones-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 25px;
+}
+
+.title-headphones {
+  font-weight: 600;
+}
+
+.price {
+  color: rgba(255, 165, 66, 1);
+  font-weight: 600;
+}
+
+.headphones-buy {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  height: 21px;
+}
+
+.rating img {
+  margin: 0;
+  margin-right: 10px;
+  vertical-align: middle
+}
+
+.rating {
+  display: flex;
+  flex-direction: row;
+  background-image: url("../img/star.svg");
+  background-repeat: no-repeat;
+  padding-left: 33px;  
+  display: block;
+}
+
+.rating p {
+  vertical-align: middle;
+  color: rgba(131, 131, 131, 1);
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.main-footer {
+  width: 1110px;
+  margin: 0 auto;
+  padding: 29px;
+  background-color: #FFFFFF;
+  border-radius: 30px 30px 0px 0px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-container .logo {
+  margin-right: 233px;
+}
+
+.main-footer-navigation {
+  margin: 0;
+  padding: 0;
+  margin-right: 174px;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+}
+
+.footer-navigation {
+  margin-right: 183px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  white-space: nowrap;
+}
+
+.lang {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.lang-item {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18.29px;
+}
+
+.rus {
+  color: rgba(255, 165, 66, 1);
+  font-weight: 700;
+}
+
+.footer-contacts-items {
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+  margin: 0;
+  text-align: end;
+  align-items: center;
+  height: 30px;
+}
+
+
